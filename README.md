@@ -7,7 +7,7 @@ This repository is an override from [tareq1988/wordpress-settings-api-class](htt
 
 ## Usage
 Instead of initializing as `new WeDevs_Settings_API` like the original library, do it like:
-`\ThanksToIT\WP_Settings_API\Settings_API()`;
+`new \ThanksToIT\WP_Settings_API\Settings_API()`;
 
 ## Subsection field
 A new subsection input type allowing to create a Subsection

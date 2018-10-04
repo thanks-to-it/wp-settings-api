@@ -16,6 +16,7 @@ array(
   'type'  => 'subsection'
 ),
 ```
+![Subsection field](https://i.imgur.com/M28opH7.png)
 
 ## No padding on submit button
 On the original class, there is a anoying `style="padding-left: 10px"` on submit button.

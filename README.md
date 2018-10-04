@@ -1,5 +1,5 @@
 # wp-settings-api
-This repository is a override from [tareq1988/wordpress-settings-api-class](https://github.com/tareq1988/wordpress-settings-api-class)
+This repository is an override from [tareq1988/wordpress-settings-api-class](https://github.com/tareq1988/wordpress-settings-api-class) with some new features
 
 ## Features
 

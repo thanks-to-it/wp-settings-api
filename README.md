@@ -9,6 +9,33 @@ This repository is an override from [tareq1988/wordpress-settings-api-class](htt
 Instead of initializing as `new WeDevs_Settings_API` like the original library, do it like:
 `new \ThanksToIT\WP_Settings_API\Settings_API()`;
 
+## Package Installation (via Composer)
+To install this package, edit your `composer.json` file:
+
+```js
+{
+"repositories": [  
+  {
+    "type": "vcs",
+    "url": "https://github.com/thanks-to-it/wp-settings-api"
+  }
+],
+    "require": {
+        "thanks-to-it/wp-settings-api": "dev-master"
+    }
+}
+```
+
+And don't forget to include the original library as well `composer.json` file:
+
+```js
+{
+    "require": {
+        "tareq1988/wordpress-settings-api-class": "dev-master"
+    }
+}
+```
+
 ## Subsection field
 A new subsection input type allowing to create a Subsection
 ```php

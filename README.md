@@ -11,7 +11,7 @@ A new subsection input type allowing to create a Subsection
 ```php
 array(
   'name'  => 'subsection_general',
-  'label' => __( 'A subsection', 'domain' ),
+  'label' => __( 'My subsection', 'domain' ),
   'desc'  => __( 'Now we can have a subsection description too ;)', 'domain' ),
   'type'  => 'subsection'
 ),

@@ -2,9 +2,12 @@
 This repository is an override from [tareq1988/wordpress-settings-api-class](https://github.com/tareq1988/wordpress-settings-api-class) with some new features
 
 ## Features
-
 * **Subsection field**
 * **No padding on submit button**
+
+## Usage
+Instead of initializing as `new WeDevs_Settings_API` like the original library, do it like this
+new `\ThanksToIT\WP_Settings_API\Settings_API()`;
 
 ## Subsection field
 A new subsection input type allowing to create a Subsection

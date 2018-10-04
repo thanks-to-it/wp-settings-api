@@ -14,15 +14,15 @@ To install this package, edit your `composer.json` file:
 
 ```js
 {
-"repositories": [  
-  {
-    "type": "vcs",
-    "url": "https://github.com/thanks-to-it/wp-settings-api"
-  }
-],
-    "require": {
-        "thanks-to-it/wp-settings-api": "dev-master"
+  "repositories": [  
+    {
+      "type": "vcs",
+      "url": "https://github.com/thanks-to-it/wp-settings-api"
     }
+  ],
+  "require": {
+    "thanks-to-it/wp-settings-api": "dev-master"
+  }
 }
 ```
 

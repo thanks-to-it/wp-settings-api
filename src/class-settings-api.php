@@ -95,7 +95,7 @@ if ( ! class_exists( 'ThanksToIT\WP_Settings_API\Settings_API' ) ) {
 		 */
 		function show_forms() {
 			?>
-            <div class="metabox-holder">
+            <!--<div class="metabox-holder">-->
 				<?php foreach ( $this->settings_sections as $form ) { ?>
                     <div id="<?php echo $form['id']; ?>" class="group" style="display: none;">
                         <form method="post" action="options.php">
@@ -113,7 +113,7 @@ if ( ! class_exists( 'ThanksToIT\WP_Settings_API\Settings_API' ) ) {
                         </form>
                     </div>
 				<?php } ?>
-            </div>
+            <!--</div>-->
 			<?php
 			$this->script();
 		}

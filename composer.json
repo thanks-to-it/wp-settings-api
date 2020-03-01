@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.2.4",
-        "tareq1988/wordpress-settings-api-class": "dev-master",
+        "tareq1988/wordpress-settings-api-class": "dev-master"
     },
     "autoload": {
         "classmap": ["src/"]
